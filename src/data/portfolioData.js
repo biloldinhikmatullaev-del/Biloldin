@@ -159,6 +159,18 @@ export const portfolioData = {
       badge: "Живой сайт",
       type: "E-Commerce",
       previewTheme: "indigo"
+    },
+    {
+      id: "project-8",
+      title: "Проект 8 (Название будет обновлено)",
+      shortDesc: "Стильный и современный веб-проект.",
+      roleDesc: "Разработка frontend-части, адаптивная верстка и настройка интерфейса.",
+      techStack: ["React", "CSS3", "JavaScript"],
+      liveUrl: "https://80b92941-aaa1-4b11-b152-968392016f2f.netlify.app",
+      githubUrl: "https://github.com/biloldin",
+      badge: "Живой сайт",
+      type: "Web App",
+      previewTheme: "rose"
     }
   ],
   processSteps: [
