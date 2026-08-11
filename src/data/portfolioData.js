@@ -154,7 +154,7 @@ export const portfolioData = {
       shortDesc: "Современный каталожный интернет-магазин с корзиной, фильтрацией товаров и оформлением заказа.",
       roleDesc: "Спроектировал адаптивный UI, настроил стейт корзины на React и подключил Firebase для хранения товаров.",
       techStack: ["React", "Firebase", "Tailwind CSS", "JavaScript"],
-      liveUrl: "https://techgear-shop-demo.netlify.app",
+      liveUrl: "https://72bc65b8-2e18-4568-ad72-189b2a29a9a2.netlify.app",
       githubUrl: "https://github.com/biloldin/techgear-e-commerce",
       badge: "Живой сайт",
       type: "E-Commerce",

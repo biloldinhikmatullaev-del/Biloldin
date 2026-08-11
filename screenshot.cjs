@@ -8,6 +8,7 @@ const urls = [
   { id: 'project-4', url: 'https://6202be6a-ece6-4fb9-b7db-69e85b09d489.netlify.app/' },
   { id: 'project-5', url: 'https://662357a7-78e1-45f3-bf30-2ca7089b5de7.netlify.app/' },
   { id: 'project-6', url: 'https://779b1b15-08c4-48f6-95c4-cde9c61c83ae.netlify.app/' },
+  { id: 'project-7', url: 'https://72bc65b8-2e18-4568-ad72-189b2a29a9a2.netlify.app/' },
 ];
 
 (async () => {
