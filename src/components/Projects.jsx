@@ -7,7 +7,7 @@ export function Projects() {
   const { projects } = portfolioData;
   const [filter, setFilter] = useState('Все');
 
-  const categories = ['Все', 'React', 'Firebase', 'E-Commerce', 'Web App'];
+  const categories = ['Все', 'React', 'Firebase', 'E-Commerce', 'Web App', 'Landing & Service'];
 
   const filteredProjects = filter === 'Все'
     ? projects
@@ -45,13 +45,13 @@ export function Projects() {
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}
-                className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
+                className={`px-4 py-2 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
                   filter === cat
-                    ? 'bg-indigo-600 text-white font-display shadow-sm'
+                    ? 'bg-indigo-600 text-white font-display shadow-sm shadow-indigo-500/20'
                     : 'bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border border-gray-200 dark:border-gray-700 hover:text-gray-900 dark:hover:text-gray-200 hover:border-gray-300 dark:hover:border-gray-500'
                 }`}
               >
-                {cat === 'Все' ? 'Все проекты (3)' : cat}
+                {cat === 'Все' ? `Все проекты (${projects.length})` : cat}
               </button>
             ))}
           </div>
