@@ -11,6 +11,7 @@ const urls = [
   { id: 'project-7', url: 'https://72bc65b8-2e18-4568-ad72-189b2a29a9a2.netlify.app/' },
   { id: 'project-8', url: 'https://80b92941-aaa1-4b11-b152-968392016f2f.netlify.app/' },
   { id: 'project-9', url: 'https://9af5e59c-9b6b-47dc-9213-5720daf41aa2.netlify.app/' },
+  { id: 'project-10', url: 'https://45c9403a-7c5c-42bd-9fca-f82a52d21856.netlify.app/' },
 ];
 
 (async () => {
